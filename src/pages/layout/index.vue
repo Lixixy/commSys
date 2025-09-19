@@ -22,7 +22,7 @@ import home from '../home/home.vue';
 .container{
   height: 100%;
   .header{
-    background-color: rgba(11,68,66,0.84);
+    background-color: rgba(var(--color-background-primary),0.84);
     display: flex;
     align-items: center;
     padding: 0px;

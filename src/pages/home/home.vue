@@ -73,7 +73,7 @@ const noticeList = ref([
   .title{
     font-size: 14px;
     font-weight: 600;
-    color:#666666;
+    color:var(--color-text-subtitle);
   }
   .date{
     font-size: 14px;

@@ -92,7 +92,7 @@
 <style>
 .login{
   min-height: 100vh;
-  background-color: rgba(11,68,66,0.84);
+  background-color: rgba(var(--color-background-primary), 0.81);
 }
 .login_left{
   display: flex;
@@ -100,7 +100,7 @@
   align-items: center;
 }
 .login_right{
-  background-color: rgba(192,215,213);
+  background-color: rgb(var(--color-background-secondary));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,10 +110,10 @@
   font-weight: bold;
   font-size: 300%;
   margin-bottom: 4px;
-  color: rgba(192,215,213);
+  color: rgb(var(--color-background-secondary));
 }
 .text_B_left{
-  color: rgba(192,215,213);
+  color: rgb(var(--color-background-secondary));
 }
 h2{
   font-weight: bold;
@@ -125,12 +125,12 @@ h2{
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  color:rgba(65,131,131,0.5);
+  color:rgba(var(--color-background-primary),0.5);
 }
 .text_B_right{
   height: 1px;
   width: 30px;
-  background-color: rgba(65,131,131,0.5);
+  background-color: rgba(var(--color-background-primary),0.5);
   margin: 3px;
 }
 .text fields{
@@ -145,6 +145,6 @@ h2{
 }
 .register_B{
   font-size: 75%;
-  color: rgba(11,68,66,0.84);
+  color: rgba(var(--color-background-primary),0.84);
 }
 </style>
