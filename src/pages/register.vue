@@ -139,12 +139,12 @@ h2{
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  color:rgba(65,131,131,0.5);
+  color:rgba(var(--color-background-primary-light),0.5);
 }
 .text_B_right{
   height: 1px;
   width: 30px;
-  background-color: rgba(65,131,131,0.5);
+  background-color: rgba(var(--color-background-primary-light),0.5);
   margin: 3px;
 }
 .text fields{

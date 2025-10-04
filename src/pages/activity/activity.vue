@@ -71,7 +71,7 @@ const handleCurrentChange = (page)=>{
 <style lang="scss" scoped>
 .news-container {
   padding: 20px;
-  background: #fff;
+  background: var(--color-background);
   border-radius: 8px;
   box-shadow: 0 2px 12px 0 rgba(0,0,0,0.1);
 }
@@ -79,10 +79,10 @@ const handleCurrentChange = (page)=>{
   display: flex;
   margin-bottom: 15px;
   padding: 25px 0px;
-  border-bottom: 1px solid #e4e7ed;
+  border-bottom: 1px solid var(--color-background);
   cursor: pointer;
   &:hover{
-    background-color: #f9fafc;
+    background-color: var(--color-background);
     transform: translateY(-2px);
     transition: all 0.3s ease;
   }
@@ -122,9 +122,9 @@ const handleCurrentChange = (page)=>{
       .news-time{
         text-align: left;
         font-size: 14px;
-        color: #999;
+        color: var(--color-text-light);
         padding: 4px 10px;
-        background: #f5f7fa;
+        background: var(--color-background);
         border-radius: 4px;
       }
     }

@@ -73,12 +73,12 @@ const tabledata = ref([
 <style lang="scss" scoped>
 .time {
   font-size: 10px;
-  color: rgba(11,68,66,0.84);
+  color: rgba(var(--color-background-primary),0.84);
 }
 .cateitem{
   height: 50px;
   line-height: 50px;
-  border-bottom: 1px solid rgba(11,68,66,0.84);
+  border-bottom: 1px solid rgba(var(--color-background-primary),0.84);
   text-align: center;
   cursor: pointer;
 }

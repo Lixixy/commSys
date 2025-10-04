@@ -1,0 +1,10 @@
+:root {
+    --color-background: #fff;
+    --color-background-primary: 11, 68, 66;
+    --color-background-primary-light: 65, 131, 131;
+    --color-background-secondary: 192, 215, 213;
+    --color-text: #303133;
+    --color-text-subtitle: #666;
+    --color-text-title: #333;
+    --color-text-light: #999;
+}
